@@ -36,9 +36,9 @@ jobs:
       with:
           accessKeyId: ${{ secrets.OSS_ACCESS_KEY_ID }}
           accessKeySecret: ${{ secrets.OSS_ACCESS_KEY_SECRET }}
-          bucket: bing-hk
+          bucket: bing-wallpaper-1281
           # use your own endpoint
-          endpoint: oss-cn-hongkong.aliyuncs.com
+          endpoint: oss-cn-shenzhen.aliyuncs.com
           folder: docs
           
     - name: Commit files
